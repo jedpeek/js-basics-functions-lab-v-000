@@ -26,5 +26,8 @@ function calculatesFarePrice(start, destination){
   else if(d < 2000){
     return  (d - 400)*(.02)
   }
+  else if (d > 2000 && d < 2500) {
+    return 25;
+  }
 
 }
