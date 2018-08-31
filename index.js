@@ -24,7 +24,7 @@ function calculatesFarePrice(start, destination){
     return "This one is on me."
   }
   else if(d < 2000){
-    return  (d - 400)*.02
+    return  (d - 400)*(.02)
   }
 
 }
